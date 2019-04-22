@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Silat Scoring",
+    "description": "Accurately and effectively score Pencak Silat (TANDING) matches.",
+    "slug": "silat-scoring",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "platforms": ["ios", "android"],
+    "version": "3.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/ios_icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pencaksilat.scoring",
+      "icon" : "./assets/ios_icon.png"
+    },
+    "android" : {
+      "package" : "com.pencaksilat.scoring",
+      "icon" : "./assets/ios_icon.png",
+      "versionCode" : 3
+    }
+  }
+}
